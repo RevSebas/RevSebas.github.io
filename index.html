@@ -1,44 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Portafolio</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía: ¡Tu Participación Impulsa la Gobernanza de Datos en UNACEM!</title>
+    <style>
+        /* Estilos CSS con colores principales y ajustes para el logo */
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 0; padding: 20px; background-color: #f4f4f4; color: #000; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        header { text-align: center; margin-bottom: 30px; }
+        header img { max-width: 150px; height: auto; margin-bottom: 15px; } /* Logo UNACEM */
+        header h1 { color: rgb(255,0,0); font-size: 2.2em; margin-bottom: 10px; } /* Rojo UNACEM */
+        header p { color: #333; font-size: 1.1em; }
+        .section { margin-bottom: 25px; padding: 20px; border-left: 5px solid rgb(255,0,0); background-color: #ffebee; border-radius: 5px; } /* Rojo claro de fondo */
+        .section h2 { color: rgb(255,0,0); margin-top: 0; }
+        .section ul { list-style: none; padding: 0; }
+        .section ul li { background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="%23ff0000"><circle cx="12" cy="12" r="10"/></svg>') no-repeat left center; background-size: 16px; padding-left: 25px; margin-bottom: 8px; color: #000; }
+        .section.motivo { background-color: #f8f8f8; border-left: 5px solid #000; } /* Negro para secciones motivo */
+        .section.motivo h2 { color: #000; }
+        .section.motivo ul li { background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="%23000000"><circle cx="12" cy="12" r="10"/></svg>'); color: #000; }
+
+        .statistic-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 25px;
+            padding: 15px;
+            background-color: #eee;
+            border-radius: 5px;
+            flex-wrap: wrap;
+        }
+        .statistic-item {
+            text-align: center;
+            flex: 1;
+            min-width: 120px;
+            margin: 8px;
+        }
+        .statistic-item h3 {
+            color: rgb(255,0,0);
+            font-size: 1.6em;
+            margin-bottom: 3px;
+        }
+        .statistic-item p {
+            color: #333;
+            font-size: 0.9em;
+        }
+        .graphic-placeholder {
+            text-align: center;
+            margin-bottom: 25px;
+            padding: 15px;
+            border: 1px dashed #ccc;
+            border-radius: 5px;
+            background-color: #fdfdfd;
+            color: #777;
+        }
+        .graphic-placeholder h4 {
+            margin-top: 0;
+        }
+        footer { text-align: center; margin-top: 30px; font-size: 0.9em; color: #777; }
+        footer p a { color: rgb(255,0,0); text-decoration: none; font-weight: bold; }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Bienvenido a mi portafolio</h1>
-    <nav>
-      <ul>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="container">
+        <header>
+            <img src="URL_DEL_LOGO_UNACEM" alt="Logo UNACEM"> 
+            <h1>¡Tu Participación Impulsa la Gobernanza de Datos en UNACEM!</h1>
+            <p>Sé parte activa de la gestión y el futuro de nuestros datos.</p>
+        </header>
 
-  <section id="sobre-mi">
-    <h2>Sobre mí</h2>
-    <p>Hola, soy [Tu Nombre], un apasionado de la tecnología y el desarrollo web.</p>
-  </section>
+        <div class="section motivo">
+            <h2>¿Por qué tu voz es importante en la Gobernanza de Datos?</h2>
+            <ul>
+                <li>*Mejora Continua:* Tu perspectiva desde el trabajo diario enriquece las políticas y procesos de datos.</li>
+                <li>*Datos más Confiables:* Al participar, contribuyes a identificar y corregir problemas de calidad de datos.</li>
+                <li>*Decisiones Informadas:* Una gobernanza sólida asegura que las decisiones en UNACEM se basen en datos precisos y relevantes.</li>
+                <li>*Eficiencia Operativa:* Procesos de datos claros y bien definidos facilitan tu trabajo y el de tus compañeros.</li>
+                <li>*Cultura de Datos:* Juntos construimos una cultura organizacional donde el valor y la gestión de los datos son prioridad.</li>
+            </ul>
+        </div>
 
-  <section id="proyectos">
-    <h2>Proyectos</h2>
-    <ul>
-      <li><a href="#">Proyecto 1</a></li>
-      <li><a href="#">Proyecto 2</a></li>
-      <li><a href="#">Proyecto 3</a></li>
-    </ul>
-  </section>
+        <div class="section">
+            <h2>¿Qué es la Gobernanza de Datos con la Metodología DAMA en UNACEM?</h2>
+            <p>Es el marco que define quién, cómo y cuándo se utilizan nuestros datos. Basándonos en los pilares de DAMA, buscamos:</p>
+            <ul>
+                <li>Establecer *claridad en los roles y responsabilidades* sobre los datos.</li>
+                <li>Implementar *políticas y estándares* para la calidad, seguridad y privacidad de la información.</li>
+                <li>Mejorar la *gestión y el linaje* de nuestros datos críticos.</li>
+                <li>Fomentar una *cultura de colaboración y responsabilidad* en torno a los datos.</li>
+            </ul>
+        </div>
 
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Puedes contactarme a través de mi <a href="mailto:tuemail@example.com">correo electrónico</a>.</p>
-  </section>
+        <div class="section motivo">
+            <h2>Beneficios de Participar en los Procesos de Gobernanza</h2>
+            <ul>
+                <li>*Impacto Directo:* Tu participación influye en cómo se gestionan los datos que utilizas diariamente.</li>
+                <li>*Desarrollo Profesional:* Aprende sobre las mejores prácticas en gestión de datos y amplía tus habilidades.</li>
+                <li>*Colaboración Interdepartamental:* Interactúa y comparte conocimientos con colegas de diferentes áreas de UNACEM.</li>
+                <li>*Reconocimiento:* Tu compromiso con la gobernanza de datos será valorado por la organización.</li>
+                <li>*Construcción del Futuro de UNACEM:* Contribuye a que nuestra empresa tome decisiones estratégicas basadas en datos sólidos.</li>
+            </ul>
+        </div>
 
-  <footer>
-    <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
-  </footer>
+        <div class="section">
+            <h2>¡Sé Parte Activa! ¿Cómo puedes involucrarte?</h2>
+            <ul>
+                <li>*Respondiendo a Encuestas y Solicitudes de Feedback:* Tu opinión es fundamental para mejorar nuestros procesos.</li>
+                <li>*Participando en Grupos de Trabajo y Comités de Datos:* Únete a las iniciativas de gobernanza que se alineen con tu área de expertise.</li>
+                <li>*Reportando Problemas de Calidad de Datos:* Ayúdanos a mantener la integridad de nuestra información.</li>
+                <li>*Sugiriendo Mejoras a las Políticas y Procesos:* Tu experiencia práctica es invaluable.</li>
+                <li>*Asistiendo a Sesiones Informativas y de Capacitación:* Mantente al día sobre las iniciativas de gobernanza y cómo puedes contribuir.</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>Tu participación es clave para el éxito de la Gobernanza de Datos en UNACEM. ¡Juntos construimos un futuro basado en datos confiables y valiosos!</p>
+            <p>Para más información, contacta a <a href="#">el equipo de Gobernanza de Datos de UNACEM</a>.</p>
+            <p>&copy; 2025 UNACEM. Todos los derechos reservados.</p>
+        </footer>
+    </div>
 </body>
 </html>
